@@ -3,7 +3,8 @@
 .idea/
 bin/
 lib/python3.8/site-packages/
-
+CACHEDIR.TAG
+pyvenv.cfg
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
