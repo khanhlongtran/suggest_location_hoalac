@@ -28,7 +28,9 @@ def build_feature_vector(restaurant, user_preferences):
     return feature_vector
 
 
-# Hàm gợi ý các món ăn dựa trên KNN
+# Hàm gợi ý các món ăn dựa trên Ban đầu -> user preference -> suggest based on this
+# Sau một thời gian -> dựa vào history -> chọn ra những món hay ăn nhất -> thay đổi preference (hoặc add vào preference của user) -> nhét vào mô hình AI để nó suggest lại
+
 def knn_recommend_dishes(user_preferences, restaurants_data, user_location, k=3):
     # Đảm bảo k không vượt quá số lượng nhà hàng
     k = min(k, len(restaurants_data))

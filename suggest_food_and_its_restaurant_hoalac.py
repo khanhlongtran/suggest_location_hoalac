@@ -20,7 +20,7 @@ user_preferences = {
 }
 
 
-# Hàm lọc món ăn dựa trên sở thích
+# Hàm lọc món ăn dựa trên sở thích, content-based filtering
 def recommend_dishes(preferences, restaurants):
     recommended_dishes = []
 

@@ -24,7 +24,7 @@ restaurants = np.array([
 ])
 
 # Vị trí hiện tại của bạn
-
+# Using flash POST method to get user's location
 user_location = np.array([[21.006804312994568, 105.53073269698498]])
 kmeans = KMeans(n_clusters=2, random_state=0).fit(restaurants)
 # Dự đoán cụm của người dùng
